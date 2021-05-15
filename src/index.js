@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import PropTypes from 'prop-types';
-import Big from 'big.js';
+
+import Calculator from './calculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calculator name="Edxco" />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
