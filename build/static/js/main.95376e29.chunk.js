@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-calculator"]=this["webpackJsonpreact-calculator"]||[]).push([[0],{10:function(c,e,t){"use strict";t.r(e);var n=t(1),r=t.n(n),a=t(3),o=t.n(a),s=(t(8),t(0));var i=function(c){var e=c.name;return Object(s.jsx)("div",{children:Object(s.jsxs)("h1",{children:["Welcome to"," ",e," ","Calculator"]})})};o.a.render(Object(s.jsx)(r.a.StrictMode,{children:Object(s.jsx)(i,{name:"Edxco"})}),document.getElementById("root"))},8:function(c,e,t){}},[[10,1,2]]]);
+//# sourceMappingURL=main.95376e29.chunk.js.map
