@@ -32,12 +32,6 @@ body {
   background-color: #999;
 }
 
-.board-row::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 .center-calculator {
   text-align: center;
   margin: 0 auto;
