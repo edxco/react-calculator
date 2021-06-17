@@ -18,9 +18,7 @@ const Operate = (numberOne, numberTwo, operation) => {
       result = one / two;
       break;
     case '%':
-      result = two === 0
-        ? one.div(100)
-        : one.div(100).times(two);
+      result = (one.div(100)).times(two);
       break;
     default:
       result = null;

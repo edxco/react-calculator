@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function Button({ name, onClick }) {
   return (
     <div>
-      <button type="button" onClick={() => onClick(name)}>
+      <button type="button" className="square" onClick={() => onClick(name)}>
         { name }
       </button>
     </div>
