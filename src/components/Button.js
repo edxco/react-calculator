@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 
-function Button({ name }) {
+function Button({ name, onClick }) {
   return (
     <div>
-      <button type="button" className="square">
-        {name}
+      <button type="button" className="square" onClick={() => onClick(name)}>
+        { name }
       </button>
     </div>
   );
@@ -12,6 +12,7 @@ function Button({ name }) {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Button;
