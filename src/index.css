@@ -47,3 +47,40 @@ p {
   font-weight: bold;
   text-align: right;
 }
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-5 {
+  margin-bottom: 25px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  width: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.my-5 {
+  margin: 15px 10px 15px;
+}

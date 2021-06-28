@@ -23,10 +23,15 @@ function App() {
   };
 
   return (
-    <div className="w-25 bg-white">
-      <Display calculation={result()} />
-      <ButtonPanel onClick={handleClick} />
-    </div>
+    <>
+      <div>
+        <h2 className="mx-auto w-50 text-center mb-5">Let&acute;s do some math </h2>
+      </div>
+      <div className="w-100 h-100 App">
+        <Display calculation={result()} />
+        <ButtonPanel onClick={handleClick} />
+      </div>
+    </>
   );
 }
 
