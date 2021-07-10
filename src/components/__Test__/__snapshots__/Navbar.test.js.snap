@@ -3,34 +3,34 @@
 exports[`return navbar match sanpshot 1`] = `
 <div>
   <div
-    class="header mx-auto mb-5"
+    class="topnav"
   >
     <a
-      class="text-center"
+      class="active"
       href="/"
     >
-      Math Magicians
+      <strong>
+        React Calculator
+      </strong>
     </a>
-    <nav>
-      <a
-        class=""
-        href="/"
-      >
-        Home
-      </a>
-      <a
-        class="my-5"
-        href="/calculator"
-      >
-        Calculator
-      </a>
-      <a
-        class=""
-        href="/quotes"
-      >
-        Quotes
-      </a>
-    </nav>
+    <a
+      class=""
+      href="/"
+    >
+      Changelog
+    </a>
+    <a
+      class=""
+      href="/calculator"
+    >
+      Calculator
+    </a>
+    <a
+      class=""
+      href="/credits"
+    >
+      Credits
+    </a>
   </div>
 </div>
 `;

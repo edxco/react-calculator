@@ -8,5 +8,5 @@ const content = render(<BrowserRouter><Navbar /></BrowserRouter>);
 
 test('return navbar match sanpshot', () => {
   expect(content.container).toMatchSnapshot();
-  expect(screen.getByText('Home')).toBeInTheDocument();
+  expect(screen.getByText('Changelog')).toBeInTheDocument();
 });
