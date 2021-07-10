@@ -24,6 +24,14 @@ To get a local copy up and running follow these simple steps:
 - run in terminal 'npm install'.
 - To see locally run 'npm run start'.
 
+## :heavy_check_mark: Test
+
+For testing:
+
+- Open in terminal the folder just cloned.
+- If you run 'npm install', continue reading. If not first run 'npm install'
+- To run the test, in the terminal run 'npm run test'.
+
 ## :bust_in_silhouette: Author
 
 **Eduardo Baeza**
@@ -47,7 +55,3 @@ Give a :star: if you like this project!.
 
 - To [Microverse](https://www.microverse.org/)
 - Stand up team
-
-##  :memo: License
-
-This project is [MIT](LICENSE) licensed.

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return navbar match sanpshot 1`] = `
+<div>
+  <div
+    class="header mx-auto mb-5"
+  >
+    <a
+      class="text-center"
+      href="/"
+    >
+      Math Magicians
+    </a>
+    <nav>
+      <a
+        class=""
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="my-5"
+        href="/calculator"
+      >
+        Calculator
+      </a>
+      <a
+        class=""
+        href="/quotes"
+      >
+        Quotes
+      </a>
+    </nav>
+  </div>
+</div>
+`;
