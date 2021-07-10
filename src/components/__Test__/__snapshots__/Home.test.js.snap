@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return content from Home matches snapshot 1`] = `
+<div>
+  <div
+    class="Home px-5"
+  >
+    <h1>
+      Changelog
+    </h1>
+    <p
+      class="text-regular changelog-h1"
+    >
+      All notable changes to this project will be documented in this file.
+      <br />
+      [1.0.0] - 2021-07-02
+      <br />
+      <br />
+      <strong>
+        Added
+      </strong>
+      <br />
+      - New visual identity
+      <br />
+      - Version navigation
+      <br />
+      - Link to changelog add
+      <br />
+    </p>
+  </div>
+</div>
+`;

@@ -1,4 +1,4 @@
-import Operate from '../../../src/logic/operate';
+import Operate from '../../logic/operate';
 
 test('return the subtraction of two numbers', () => {
   expect(Operate('1', '2', '-')).toBe('-1');

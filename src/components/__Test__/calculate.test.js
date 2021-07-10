@@ -1,5 +1,5 @@
-import Calculate from '../../../src/logic/calculate';
-import Operate from '../../../src/logic/operate';
+import Calculate from '../../logic/calculate';
+import Operate from '../../logic/operate';
 
 jest.mock('../../logic/operate.js');
 
@@ -8,7 +8,6 @@ beforeEach(() => {
 });
 
 let testObj;
-let result;
 
 test('If Operate is been called when passing =', () => {
   testObj = { total: '1', next: '2', operator: '+' };

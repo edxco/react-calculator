@@ -5,5 +5,6 @@ import Home from '../Home';
 
 test('return content from Home matches snapshot', () => {
   const content = render(<Home />);
+  expect(content.container).toMatchSnapshot();
   expect(screen.getByText('Changelog')).toBeInTheDocument();
 });
