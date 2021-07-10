@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return navbar match sanpshot 1`] = `
+<div>
+  <div
+    class="topnav"
+  >
+    <a
+      class="active"
+      href="/"
+    >
+      <strong>
+        React Calculator
+      </strong>
+    </a>
+    <a
+      class=""
+      href="/"
+    >
+      Changelog
+    </a>
+    <a
+      class=""
+      href="/calculator"
+    >
+      Calculator
+    </a>
+    <a
+      class=""
+      href="/credits"
+    >
+      Credits
+    </a>
+  </div>
+</div>
+`;

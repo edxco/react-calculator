@@ -16,6 +16,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.text-regular {
+  font-weight: normal;
+}
+
+.changelog-h1 {
+  font-size: 18px;
+}
+
+.px-5 {
+  padding: 0 55px 0 55px;
+}
+
 .square {
   background: #fff;
   border: 1px solid #fff;
@@ -46,4 +58,70 @@ p {
   color: rgb(68, 68, 68);
   font-weight: bold;
   text-align: right;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-5 {
+  margin-bottom: 25px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #eee;
+  color: white;
+  font-size: 30px;
+  width: 100vh;
+}
+
+.my-5 {
+  margin: 15px 10px 15px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h-logo {
+  width: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
 }

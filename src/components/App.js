@@ -1,25 +1,16 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import Calculate from '../logic/calculate';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operator: null,
-    };
-  }
+function App() {
+  const [state, setState] = useState({ total: null, next: null, operator: null });
+  const handleClick = (simbolOperation) => {
+    setState(Calculate(state, simbolOperation));
+  };
 
-  handleClick = (simbolOperation) => {
-    const result = Calculate(this.state, simbolOperation);
-    this.setState(result);
-  }
-
-  render() {
-    const { total, next, operator } = this.state;
+  const result = () => {
+    const { total, next, operator } = state;
     let display = '0';
     if (next) {
       display = total + operator + next;
@@ -28,15 +19,20 @@ class App extends Component {
     } else {
       display = total || '0';
     }
+    return display;
+  };
 
-    return (
+  return (
+    <>
       <div>
-        <Display calculation={display} />
-        <ButtonPanel onClick={this.handleClick} />
-
+        <h2 className="mx-auto w-50 text-center mb-5">Let&acute;s do some math </h2>
       </div>
-    );
-  }
+      <div className="w-100 h-100 App">
+        <Display calculation={result()} />
+        <ButtonPanel onClick={handleClick} />
+      </div>
+    </>
+  );
 }
 
 export default App;
